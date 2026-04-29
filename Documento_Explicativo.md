@@ -1,6 +1,16 @@
-# Documento Explicativo - Equipo [NOMBRE DEL EQUIPO]
+# Documento Explicativo - Sistema de Gestión de Préstamos de Equipos
 
-## a) Por qué elegimos estas clases
+## Descripción del Proyecto
+
+El laboratorio de innovación de una institución educativa enfrentaba un problema frecuente: la gestión manual de préstamos de equipos tecnológicos causaba混乱, pérdida de información y difficultan para calcular las penalidades por retraso. Los estudiantes solicitaban laptops, tablets y otros dispositivos, pero no existía un sistema que registrara quién retiró qué equipo ni cuándo debía devolverlo. Además, cuando un equipo se entregaba fuera de tiempo, el personal debíacalcular manualmente el costo de la penalidad, lo cual consumía tiempo y podían ocurrir errores.
+
+Por esta razón, desarrollamos un programa en consola que permite registrar estudiantes que solicitan préstamos, los equipos disponibles en el laboratorio, y gestionar todo el proceso de préstamo de manera automática. El sistema valida si el equipo está disponible antes deprestarlo, registra los días de retraso y calcula la penalidad correspondiente. Al final de la jornada, el programa muestra un resumen con el total de préstamos realizados, el total de penalidades acumuladas y cuántos préstamos tuvieron retraso.
+
+El programa fue implementado utilizando programación orientada a objetos en Java, siguiendo los conceptos fundamentales enseñados en el curso: clases, objetos, atributos, constructores, métodos y estructuras de control. Tres clases principales interactúan para cumplir con los requisitos del caso: Estudiante, Equipo y Préstamo. Cada una tiene responsabilidades específicas y se comunica con las demás para procesar la información de manera ordenada y eficiente.
+
+---
+
+## a) Por qué elegimos estas clases}
 
  Diseñamos 3 clases con responsabilidad única:
 
